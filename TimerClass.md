@@ -1,3 +1,7 @@
+
+This is a OOP formatted class which can be used to inherit certain features of the timer to a seperate timer class this is used for my game as a state timer which manages about 16 different ingame states.
+
+```lua
 local Utility = require(game.ReplicatedStorage.Modules.NikoModules.Utility)
 
 local Timer = {}
@@ -61,3 +65,4 @@ task.defer(function()
 end)
 
 return Timer
+```
